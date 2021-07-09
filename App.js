@@ -141,7 +141,7 @@ function users({ navigation }) {
           keyExtractor={(item, index) => item}
         />
         ) : (
-          <Text style={{margin: 50}}>No cars found.</Text>
+          <>{"Loading from database..."}</>
         )}
 
       </View>
